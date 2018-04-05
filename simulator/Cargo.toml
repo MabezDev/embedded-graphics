@@ -1,11 +1,14 @@
 [package]
-name = "embedded-graphics-simulator"
-version = "0.1.0"
 authors = ["James Waples <jamwaffles@gmail.com>"]
-repository = "https://github.com/jamwaffles/embedded-graphics"
 categories = ["embedded", "no-std", "graphics"]
 keywords = ["rtfm", "graphics", "embedded"]
+name = "embedded-graphics-simulator"
 publish = false
-
+repository = "https://github.com/jamwaffles/embedded-graphics"
+version = "0.1.0"
 [dependencies]
-embedded-graphics = { path = "../embedded-graphics" }
+kiss3d = "*"
+nalgebra = "*"
+
+[dependencies.embedded-graphics]
+path = "../embedded-graphics"
