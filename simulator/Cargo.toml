@@ -1,0 +1,11 @@
+[package]
+name = "embedded-graphics-simulator"
+version = "0.1.0"
+authors = ["James Waples <jamwaffles@gmail.com>"]
+repository = "https://github.com/jamwaffles/embedded-graphics"
+categories = ["embedded", "no-std", "graphics"]
+keywords = ["rtfm", "graphics", "embedded"]
+publish = false
+
+[dependencies]
+embedded-graphics = { path = "../embedded-graphics" }
