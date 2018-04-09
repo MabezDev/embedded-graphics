@@ -9,6 +9,7 @@ version = "0.1.0"
 [dependencies]
 kiss3d = "*"
 nalgebra = "*"
+rand = "*"
 
 [dependencies.embedded-graphics]
 path = "../embedded-graphics"
