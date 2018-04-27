@@ -2,10 +2,11 @@
 authors = ["James Waples <jamwaffles@gmail.com>"]
 categories = ["embedded", "no-std", "graphics"]
 keywords = ["rtfm", "graphics", "embedded"]
-name = "embedded-graphics-simulator"
+name = "simulator"
 publish = false
 repository = "https://github.com/jamwaffles/embedded-graphics"
 version = "0.1.0"
+
 [dependencies]
 kiss3d = "*"
 nalgebra = "*"
