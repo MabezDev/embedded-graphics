@@ -37,6 +37,10 @@ where
             color,
         }
     }
+
+    fn measure_str(text: &'a str) -> (usize, usize){
+        (text.len() * 12, 16)
+    }
 }
 
 #[derive(Debug, Clone, Copy)]

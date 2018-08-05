@@ -43,4 +43,7 @@ where
     /// }
     /// ```
     fn render_str(chars: &'a str, color: C) -> Self;
+
+    /// Returns the dimensions of a str for a given font
+    fn measure_str(chars: &'a str) -> (usize, usize);
 }
